@@ -186,6 +186,8 @@ $RECYCLE.BIN/
 #mon cmakelist
 C++\CMakeLists.txt
 
+#zone build julien
+C++-build/*
 
 #############
 ## Python
