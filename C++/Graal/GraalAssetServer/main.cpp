@@ -3,17 +3,34 @@
 
 #include "TcpNetworking/simpletcpstartpoint.hpp"
 
+
+
+extern void __attach(void);
+extern void __attachInterfaces(void);
+extern void __attachGenerics(void);
+extern void __attachAssets(void);
+extern void __attachQImage(void);
+extern void __attachWavefront(void);
+
 int nb_Client_connect;
 
-void connection_Client (QUuid client, SimpleTcpStartPoint *server){
-    while ( true ) {
-        ByteBuffer message;
-        server->receive(client,message); std::cout<<client.toString().toStdString()<<std::endl;//std::cout << "Recv : " << message.getLength() << " bytes" << std::endl;
-        server->send(client,message); std::cout << "Sent : " << message.getLength() << " bytes" << std::endl;
-    }
+void connection_Client (QUuid client, SimpleTcpStartPoint *server, SharedResourcePtr ptr){
+
+    ByteBuffer messageCube = ResourceHolder::ToBuffer(ptr);
+    server->send(client,messageCube); std::cout << "Sent : " << messageCube.getLength() << " bytes" << std::endl;
+
 }
 
 int main ( int argc, char** argv ) {
+
+    __attachQImage();
+    __attachWavefront();
+
+
+    FileDescriptor file ( argv[1]);
+    SharedResourceList ress = ResourceHolder::Load(file);
+    SharedResourcePtr ptr = ress [0];
+
     nb_Client_connect = 0;
     std::thread th_client[10];
     std::thread th_listen;
@@ -26,11 +43,15 @@ int main ( int argc, char** argv ) {
     server.start();
     QUuid client;
 
+
+
+
     while ( true ) {
         client = server.listen();
         bool insert = true;
         if (client != fake){
-            th_client[nb_Client_connect] = std::thread (connection_Client, client, &server/**/);
+
+            th_client[nb_Client_connect] = std::thread (connection_Client, client, &server, ptr);
             nb_Client_connect++;
             std::cout<<"Client "<<nb_Client_connect<<" est connecté"<<endl;
         }
