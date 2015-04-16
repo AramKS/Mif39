@@ -6,6 +6,8 @@
 #include <iostream>
 #include <fstream>
 
+#include <time.h>
+
 
 extern void __attach(void);
 extern void __attachInterfaces(void);
@@ -21,13 +23,25 @@ int main ( int argc, char** argv ) {
     __attachQImage();
     __attachWavefront();
 
+    /* initialize random seed: */
+    srand (time(NULL));
 
     SimpleTcpEndPoint::Options options;
     options.serverIP = "127.0.0.1";
     options.connectionPort = 3000;
     SimpleTcpEndPoint client ( options );
     ByteBuffer message;
+    int randomRequest = rand() % 6 + 1;
+    randomRequest -=1;
+    unsigned char ch = randomRequest + '0';
+
+    std::cout << std::endl << randomRequest << std::endl << ch << std::endl;
+
+    ByteBuffer request(&ch, 1);
     if ( client.open() == false ) exit ( -1 );
+
+    client.send(request);
+
 
     while(message.getLength()==0)
         client.receive(message); std::cout << "Recv : " << message.getLength() << " bytes" << std::endl;

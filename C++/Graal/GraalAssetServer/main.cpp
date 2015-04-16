@@ -1,6 +1,5 @@
 #include "QImageLoader/qimageloader.hpp"
 #include "Wavefront/wavefront.hpp"
-
 #include "TcpNetworking/simpletcpstartpoint.hpp"
 
 #include "serverutil.hpp"
@@ -14,43 +13,62 @@ extern void __attachWavefront(void);
 
 int nb_Client_connect;
 
-void connection_Client (QUuid client, SimpleTcpStartPoint *server, SharedResourcePtr ptr){
+void connection_Client (QUuid client, SimpleTcpStartPoint *server){
 
-    ByteBuffer messageCube = ResourceHolder::ToBuffer(ptr);
-    server->send(client,messageCube); std::cout << "Sent : " << messageCube.getLength() << " bytes" << std::endl;
+    ByteBuffer request;
+    server->receive(client,request);
+    std::cout<<std::endl<<request.getData()<<std::endl<<std::endl;
+    int requestNb = ((request.getData()[0]) - '0');
+    std::cout<<std::endl<<requestNb<<std::endl<<std::endl;
 
+    QList <QUuid> l = ResourceHolder::AllKeys();
+    SharedResourcePtr p = ResourceHolder::GetByUUID(l.at(requestNb));
+    ByteBuffer mess = ResourceHolder::ToBuffer(p);
+    server->send(client, mess);
+    //std::this_thread::yield();
+    //while (true){}
+    //server->send(client,messageCube);
+    //server->receive();
+    //std::cout << "Sent : " << messageCube.getLength() << " bytes" << std::endl;
+}
+
+void serverListen (SimpleTcpStartPoint *server){
+    QUuid fake;
+    std::thread th_client[10];
+
+    while ( true ) {
+        QUuid client;
+        while (client == fake)
+            client = server->listen();
+        if (client != fake){
+            th_client[nb_Client_connect]  = std::thread (connection_Client, client, server);
+            nb_Client_connect++;
+            std::cout<<"Client "<<nb_Client_connect<<" est connecté"<<endl;
+        }
+        std::this_thread::yield();
+    }
 }
 
 int main ( int argc, char** argv ) {
-
     __attachQImage();
     __attachWavefront();
 
-
     nb_Client_connect = 0;
-    std::thread th_client[10];
     std::thread th_listen;
 
-    QUuid fake;
     SimpleTcpStartPoint::Options options;
     options.connectionPort = 3000;
     options.maximumConnectedClients = 2;
     SimpleTcpStartPoint server ( options );
     server.start();
+
     loadAllObj();
 
-    QUuid client;
+    th_listen = std::thread (serverListen, &server);
 
-    while ( true ) {
-        client = server.listen();
-        bool insert = true;
-        if (client != fake){
+    while (true)
+        std::this_thread::yield();
 
-            //th_client[nb_Client_connect] = std::thread (connection_Client, client, &server, ptr);
-            nb_Client_connect++;
-            std::cout<<"Client "<<nb_Client_connect<<" est connecté"<<endl;
-        }
-    }
     server.stop ();
     return 0;
 }
