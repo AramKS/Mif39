@@ -8,6 +8,9 @@
 #include <vector>
 #include <string>
 
+#include <thread>
+#include <pthread.h>
+
 #include <QLocale>
 
 #include <QObject>
