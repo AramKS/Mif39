@@ -1,0 +1,1407 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+   <FileVersion major="1" minor="6" />
+   <Project>
+      <Option title="Mif39" />
+      <Option makefile_is_custom="1" />
+      <Option compiler="gcc" />
+      <Option virtualFolders="CMake Files\;CMake Files\AssetGenerics\;CMake Files\AssetInterfaces\;CMake Files\Assets\;CMake Files\FuzzyLogicBehaviour\;CMake Files\Graal\;CMake Files\Graal\GraalWavefrontTest\;CMake Files\Graal\GraalAssetServer\;CMake Files\Graal\GraalAssetClient\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\opt\;CMake Files\..\..\..\..\..\..\opt\Qt\;CMake Files\..\..\..\..\..\..\opt\Qt\5.4\;CMake Files\..\..\..\..\..\..\opt\Qt\5.4\gcc_64\;CMake Files\..\..\..\..\..\..\opt\Qt\5.4\gcc_64\lib\;CMake Files\..\..\..\..\..\..\opt\Qt\5.4\gcc_64\lib\cmake\;CMake Files\..\..\..\..\..\..\opt\Qt\5.4\gcc_64\lib\cmake\Qt5Core\;CMake Files\..\..\..\..\..\..\opt\Qt\5.4\gcc_64\lib\cmake\Qt5Gui\;CMake Files\Utility\;CMake Files\Networking\;CMake Files\TcpNetworking\;CMake Files\Wavefront\;CMake Files\QImageLoader\;CMake Files\Samples\;CMake Files\Samples\WavefrontTest\;CMake Files\Samples\SimpleAssetServer\;CMake Files\Samples\SimpleAssetClient\;" />
+      <Build>
+      <Target title="all">
+         <Option working_dir="/home/mica/Bureau/FAC/Mif39/C++-build" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/mica/Bureau/FAC/Mif39/C++-build/Makefile&quot;  VERBOSE=1 all" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/mica/Bureau/FAC/Mif39/C++-build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/mica/Bureau/FAC/Mif39/C++-build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/mica/Bureau/FAC/Mif39/C++-build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="rebuild_cache">
+         <Option working_dir="/home/mica/Bureau/FAC/Mif39/C++-build" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/mica/Bureau/FAC/Mif39/C++-build/Makefile&quot;  VERBOSE=1 rebuild_cache" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/mica/Bureau/FAC/Mif39/C++-build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/mica/Bureau/FAC/Mif39/C++-build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/mica/Bureau/FAC/Mif39/C++-build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="Utility">
+         <Option output="/home/mica/Bureau/FAC/Mif39/C++-build/lib/libUtility.so" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/mica/Bureau/FAC/Mif39/C++-build/Utility" />
+         <Option object_output="./" />
+         <Option type="3" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DQT_CORE_LIB" />
+            <Add option="-DQT_NO_DEBUG" />
+            <Add option="-DQT_GUI_LIB" />
+            <Add directory="/home/mica/Bureau/FAC/Mif39/C++-build/Utility" />
+            <Add directory="/home/mica/Bureau/FAC/Mif39/C++/." />
+            <Add directory="/home/mica/Bureau/FAC/Mif39/C++/Utility" />
+            <Add directory="/opt/Qt/5.4/gcc_64/include" />
+            <Add directory="/opt/Qt/5.4/gcc_64/include/QtCore" />
+            <Add directory="/opt/Qt/5.4/gcc_64/include/QtGui" />
+            <Add directory="/opt/Qt/5.4/gcc_64/mkspecs/linux-g++" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/4.8" />
+            <Add directory="/usr/include/c++/4.8/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/4.8" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/mica/Bureau/FAC/Mif39/C++-build/Utility/Makefile&quot;  VERBOSE=1 Utility" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/mica/Bureau/FAC/Mif39/C++-build/Utility/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/mica/Bureau/FAC/Mif39/C++-build/Utility/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/mica/Bureau/FAC/Mif39/C++-build/Utility/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="Utility/fast">
+         <Option output="/home/mica/Bureau/FAC/Mif39/C++-build/lib/libUtility.so" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/mica/Bureau/FAC/Mif39/C++-build/Utility" />
+         <Option object_output="./" />
+         <Option type="3" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DQT_CORE_LIB" />
+            <Add option="-DQT_NO_DEBUG" />
+            <Add option="-DQT_GUI_LIB" />
+            <Add directory="/home/mica/Bureau/FAC/Mif39/C++-build/Utility" />
+            <Add directory="/home/mica/Bureau/FAC/Mif39/C++/." />
+            <Add directory="/home/mica/Bureau/FAC/Mif39/C++/Utility" />
+            <Add directory="/opt/Qt/5.4/gcc_64/include" />
+            <Add directory="/opt/Qt/5.4/gcc_64/include/QtCore" />
+            <Add directory="/opt/Qt/5.4/gcc_64/include/QtGui" />
+            <Add directory="/opt/Qt/5.4/gcc_64/mkspecs/linux-g++" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/4.8" />
+            <Add directory="/usr/include/c++/4.8/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/4.8" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/mica/Bureau/FAC/Mif39/C++-build/Utility/Makefile&quot;  VERBOSE=1 Utility/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/mica/Bureau/FAC/Mif39/C++-build/Utility/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/mica/Bureau/FAC/Mif39/C++-build/Utility/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/mica/Bureau/FAC/Mif39/C++-build/Utility/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="Networking">
+         <Option output="/home/mica/Bureau/FAC/Mif39/C++-build/lib/libNetworking.so" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/mica/Bureau/FAC/Mif39/C++-build/Networking" />
+         <Option object_output="./" />
+         <Option type="3" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DQT_CORE_LIB" />
+            <Add option="-DQT_NO_DEBUG" />
+            <Add option="-DQT_GUI_LIB" />
+            <Add directory="/home/mica/Bureau/FAC/Mif39/C++-build/Networking" />
+            <Add directory="/home/mica/Bureau/FAC/Mif39/C++/." />
+            <Add directory="/home/mica/Bureau/FAC/Mif39/C++/Networking" />
+            <Add directory="/opt/Qt/5.4/gcc_64/include" />
+            <Add directory="/opt/Qt/5.4/gcc_64/include/QtCore" />
+            <Add directory="/opt/Qt/5.4/gcc_64/include/QtGui" />
+            <Add directory="/opt/Qt/5.4/gcc_64/mkspecs/linux-g++" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/4.8" />
+            <Add directory="/usr/include/c++/4.8/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/4.8" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/mica/Bureau/FAC/Mif39/C++-build/Networking/Makefile&quot;  VERBOSE=1 Networking" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/mica/Bureau/FAC/Mif39/C++-build/Networking/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/mica/Bureau/FAC/Mif39/C++-build/Networking/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/mica/Bureau/FAC/Mif39/C++-build/Networking/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="Networking/fast">
+         <Option output="/home/mica/Bureau/FAC/Mif39/C++-build/lib/libNetworking.so" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/mica/Bureau/FAC/Mif39/C++-build/Networking" />
+         <Option object_output="./" />
+         <Option type="3" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DQT_CORE_LIB" />
+            <Add option="-DQT_NO_DEBUG" />
+            <Add option="-DQT_GUI_LIB" />
+            <Add directory="/home/mica/Bureau/FAC/Mif39/C++-build/Networking" />
+            <Add directory="/home/mica/Bureau/FAC/Mif39/C++/." />
+            <Add directory="/home/mica/Bureau/FAC/Mif39/C++/Networking" />
+            <Add directory="/opt/Qt/5.4/gcc_64/include" />
+            <Add directory="/opt/Qt/5.4/gcc_64/include/QtCore" />
+            <Add directory="/opt/Qt/5.4/gcc_64/include/QtGui" />
+            <Add directory="/opt/Qt/5.4/gcc_64/mkspecs/linux-g++" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/4.8" />
+            <Add directory="/usr/include/c++/4.8/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/4.8" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/mica/Bureau/FAC/Mif39/C++-build/Networking/Makefile&quot;  VERBOSE=1 Networking/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/mica/Bureau/FAC/Mif39/C++-build/Networking/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/mica/Bureau/FAC/Mif39/C++-build/Networking/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/mica/Bureau/FAC/Mif39/C++-build/Networking/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="TcpNetworking">
+         <Option output="/home/mica/Bureau/FAC/Mif39/C++-build/lib/libTcpNetworking.so" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/mica/Bureau/FAC/Mif39/C++-build/TcpNetworking" />
+         <Option object_output="./" />
+         <Option type="3" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DQT_CORE_LIB" />
+            <Add option="-DQT_NO_DEBUG" />
+            <Add option="-DQT_GUI_LIB" />
+            <Add directory="/home/mica/Bureau/FAC/Mif39/C++-build/TcpNetworking" />
+            <Add directory="/home/mica/Bureau/FAC/Mif39/C++/." />
+            <Add directory="/home/mica/Bureau/FAC/Mif39/C++/TcpNetworking" />
+            <Add directory="/opt/Qt/5.4/gcc_64/include" />
+            <Add directory="/opt/Qt/5.4/gcc_64/include/QtCore" />
+            <Add directory="/opt/Qt/5.4/gcc_64/include/QtGui" />
+            <Add directory="/opt/Qt/5.4/gcc_64/mkspecs/linux-g++" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/4.8" />
+            <Add directory="/usr/include/c++/4.8/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/4.8" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/mica/Bureau/FAC/Mif39/C++-build/TcpNetworking/Makefile&quot;  VERBOSE=1 TcpNetworking" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/mica/Bureau/FAC/Mif39/C++-build/TcpNetworking/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/mica/Bureau/FAC/Mif39/C++-build/TcpNetworking/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/mica/Bureau/FAC/Mif39/C++-build/TcpNetworking/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="TcpNetworking/fast">
+         <Option output="/home/mica/Bureau/FAC/Mif39/C++-build/lib/libTcpNetworking.so" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/mica/Bureau/FAC/Mif39/C++-build/TcpNetworking" />
+         <Option object_output="./" />
+         <Option type="3" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DQT_CORE_LIB" />
+            <Add option="-DQT_NO_DEBUG" />
+            <Add option="-DQT_GUI_LIB" />
+            <Add directory="/home/mica/Bureau/FAC/Mif39/C++-build/TcpNetworking" />
+            <Add directory="/home/mica/Bureau/FAC/Mif39/C++/." />
+            <Add directory="/home/mica/Bureau/FAC/Mif39/C++/TcpNetworking" />
+            <Add directory="/opt/Qt/5.4/gcc_64/include" />
+            <Add directory="/opt/Qt/5.4/gcc_64/include/QtCore" />
+            <Add directory="/opt/Qt/5.4/gcc_64/include/QtGui" />
+            <Add directory="/opt/Qt/5.4/gcc_64/mkspecs/linux-g++" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/4.8" />
+            <Add directory="/usr/include/c++/4.8/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/4.8" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/mica/Bureau/FAC/Mif39/C++-build/TcpNetworking/Makefile&quot;  VERBOSE=1 TcpNetworking/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/mica/Bureau/FAC/Mif39/C++-build/TcpNetworking/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/mica/Bureau/FAC/Mif39/C++-build/TcpNetworking/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/mica/Bureau/FAC/Mif39/C++-build/TcpNetworking/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="AssetInterfaces">
+         <Option output="/home/mica/Bureau/FAC/Mif39/C++-build/lib/libAssetInterfaces.so" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/mica/Bureau/FAC/Mif39/C++-build/AssetInterfaces" />
+         <Option object_output="./" />
+         <Option type="3" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DQT_CORE_LIB" />
+            <Add option="-DQT_NO_DEBUG" />
+            <Add option="-DQT_GUI_LIB" />
+            <Add directory="/home/mica/Bureau/FAC/Mif39/C++-build/AssetInterfaces" />
+            <Add directory="/home/mica/Bureau/FAC/Mif39/C++/." />
+            <Add directory="/home/mica/Bureau/FAC/Mif39/C++/AssetInterfaces" />
+            <Add directory="/opt/Qt/5.4/gcc_64/include" />
+            <Add directory="/opt/Qt/5.4/gcc_64/include/QtCore" />
+            <Add directory="/opt/Qt/5.4/gcc_64/include/QtGui" />
+            <Add directory="/opt/Qt/5.4/gcc_64/mkspecs/linux-g++" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/4.8" />
+            <Add directory="/usr/include/c++/4.8/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/4.8" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/mica/Bureau/FAC/Mif39/C++-build/AssetInterfaces/Makefile&quot;  VERBOSE=1 AssetInterfaces" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/mica/Bureau/FAC/Mif39/C++-build/AssetInterfaces/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/mica/Bureau/FAC/Mif39/C++-build/AssetInterfaces/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/mica/Bureau/FAC/Mif39/C++-build/AssetInterfaces/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="AssetInterfaces/fast">
+         <Option output="/home/mica/Bureau/FAC/Mif39/C++-build/lib/libAssetInterfaces.so" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/mica/Bureau/FAC/Mif39/C++-build/AssetInterfaces" />
+         <Option object_output="./" />
+         <Option type="3" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DQT_CORE_LIB" />
+            <Add option="-DQT_NO_DEBUG" />
+            <Add option="-DQT_GUI_LIB" />
+            <Add directory="/home/mica/Bureau/FAC/Mif39/C++-build/AssetInterfaces" />
+            <Add directory="/home/mica/Bureau/FAC/Mif39/C++/." />
+            <Add directory="/home/mica/Bureau/FAC/Mif39/C++/AssetInterfaces" />
+            <Add directory="/opt/Qt/5.4/gcc_64/include" />
+            <Add directory="/opt/Qt/5.4/gcc_64/include/QtCore" />
+            <Add directory="/opt/Qt/5.4/gcc_64/include/QtGui" />
+            <Add directory="/opt/Qt/5.4/gcc_64/mkspecs/linux-g++" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/4.8" />
+            <Add directory="/usr/include/c++/4.8/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/4.8" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/mica/Bureau/FAC/Mif39/C++-build/AssetInterfaces/Makefile&quot;  VERBOSE=1 AssetInterfaces/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/mica/Bureau/FAC/Mif39/C++-build/AssetInterfaces/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/mica/Bureau/FAC/Mif39/C++-build/AssetInterfaces/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/mica/Bureau/FAC/Mif39/C++-build/AssetInterfaces/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="AssetGenerics">
+         <Option output="/home/mica/Bureau/FAC/Mif39/C++-build/lib/libAssetGenerics.so" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/mica/Bureau/FAC/Mif39/C++-build/AssetGenerics" />
+         <Option object_output="./" />
+         <Option type="3" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DQT_CORE_LIB" />
+            <Add option="-DQT_NO_DEBUG" />
+            <Add option="-DQT_GUI_LIB" />
+            <Add directory="/home/mica/Bureau/FAC/Mif39/C++-build/AssetGenerics" />
+            <Add directory="/home/mica/Bureau/FAC/Mif39/C++/." />
+            <Add directory="/home/mica/Bureau/FAC/Mif39/C++/AssetGenerics" />
+            <Add directory="/opt/Qt/5.4/gcc_64/include" />
+            <Add directory="/opt/Qt/5.4/gcc_64/include/QtCore" />
+            <Add directory="/opt/Qt/5.4/gcc_64/include/QtGui" />
+            <Add directory="/opt/Qt/5.4/gcc_64/mkspecs/linux-g++" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/4.8" />
+            <Add directory="/usr/include/c++/4.8/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/4.8" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/mica/Bureau/FAC/Mif39/C++-build/AssetGenerics/Makefile&quot;  VERBOSE=1 AssetGenerics" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/mica/Bureau/FAC/Mif39/C++-build/AssetGenerics/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/mica/Bureau/FAC/Mif39/C++-build/AssetGenerics/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/mica/Bureau/FAC/Mif39/C++-build/AssetGenerics/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="AssetGenerics/fast">
+         <Option output="/home/mica/Bureau/FAC/Mif39/C++-build/lib/libAssetGenerics.so" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/mica/Bureau/FAC/Mif39/C++-build/AssetGenerics" />
+         <Option object_output="./" />
+         <Option type="3" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DQT_CORE_LIB" />
+            <Add option="-DQT_NO_DEBUG" />
+            <Add option="-DQT_GUI_LIB" />
+            <Add directory="/home/mica/Bureau/FAC/Mif39/C++-build/AssetGenerics" />
+            <Add directory="/home/mica/Bureau/FAC/Mif39/C++/." />
+            <Add directory="/home/mica/Bureau/FAC/Mif39/C++/AssetGenerics" />
+            <Add directory="/opt/Qt/5.4/gcc_64/include" />
+            <Add directory="/opt/Qt/5.4/gcc_64/include/QtCore" />
+            <Add directory="/opt/Qt/5.4/gcc_64/include/QtGui" />
+            <Add directory="/opt/Qt/5.4/gcc_64/mkspecs/linux-g++" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/4.8" />
+            <Add directory="/usr/include/c++/4.8/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/4.8" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/mica/Bureau/FAC/Mif39/C++-build/AssetGenerics/Makefile&quot;  VERBOSE=1 AssetGenerics/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/mica/Bureau/FAC/Mif39/C++-build/AssetGenerics/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/mica/Bureau/FAC/Mif39/C++-build/AssetGenerics/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/mica/Bureau/FAC/Mif39/C++-build/AssetGenerics/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="Assets">
+         <Option output="/home/mica/Bureau/FAC/Mif39/C++-build/lib/libAssets.so" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/mica/Bureau/FAC/Mif39/C++-build/Assets" />
+         <Option object_output="./" />
+         <Option type="3" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DQT_CORE_LIB" />
+            <Add option="-DQT_NO_DEBUG" />
+            <Add option="-DQT_GUI_LIB" />
+            <Add directory="/home/mica/Bureau/FAC/Mif39/C++-build/Assets" />
+            <Add directory="/home/mica/Bureau/FAC/Mif39/C++/." />
+            <Add directory="/home/mica/Bureau/FAC/Mif39/C++/Assets" />
+            <Add directory="/opt/Qt/5.4/gcc_64/include" />
+            <Add directory="/opt/Qt/5.4/gcc_64/include/QtCore" />
+            <Add directory="/opt/Qt/5.4/gcc_64/include/QtGui" />
+            <Add directory="/opt/Qt/5.4/gcc_64/mkspecs/linux-g++" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/4.8" />
+            <Add directory="/usr/include/c++/4.8/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/4.8" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/mica/Bureau/FAC/Mif39/C++-build/Assets/Makefile&quot;  VERBOSE=1 Assets" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/mica/Bureau/FAC/Mif39/C++-build/Assets/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/mica/Bureau/FAC/Mif39/C++-build/Assets/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/mica/Bureau/FAC/Mif39/C++-build/Assets/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="Assets/fast">
+         <Option output="/home/mica/Bureau/FAC/Mif39/C++-build/lib/libAssets.so" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/mica/Bureau/FAC/Mif39/C++-build/Assets" />
+         <Option object_output="./" />
+         <Option type="3" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DQT_CORE_LIB" />
+            <Add option="-DQT_NO_DEBUG" />
+            <Add option="-DQT_GUI_LIB" />
+            <Add directory="/home/mica/Bureau/FAC/Mif39/C++-build/Assets" />
+            <Add directory="/home/mica/Bureau/FAC/Mif39/C++/." />
+            <Add directory="/home/mica/Bureau/FAC/Mif39/C++/Assets" />
+            <Add directory="/opt/Qt/5.4/gcc_64/include" />
+            <Add directory="/opt/Qt/5.4/gcc_64/include/QtCore" />
+            <Add directory="/opt/Qt/5.4/gcc_64/include/QtGui" />
+            <Add directory="/opt/Qt/5.4/gcc_64/mkspecs/linux-g++" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/4.8" />
+            <Add directory="/usr/include/c++/4.8/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/4.8" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/mica/Bureau/FAC/Mif39/C++-build/Assets/Makefile&quot;  VERBOSE=1 Assets/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/mica/Bureau/FAC/Mif39/C++-build/Assets/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/mica/Bureau/FAC/Mif39/C++-build/Assets/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/mica/Bureau/FAC/Mif39/C++-build/Assets/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="Wavefront">
+         <Option output="/home/mica/Bureau/FAC/Mif39/C++-build/lib/libWavefront.so" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/mica/Bureau/FAC/Mif39/C++-build/Wavefront" />
+         <Option object_output="./" />
+         <Option type="3" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DQT_CORE_LIB" />
+            <Add option="-DQT_NO_DEBUG" />
+            <Add option="-DQT_GUI_LIB" />
+            <Add directory="/home/mica/Bureau/FAC/Mif39/C++-build/Wavefront" />
+            <Add directory="/home/mica/Bureau/FAC/Mif39/C++/." />
+            <Add directory="/home/mica/Bureau/FAC/Mif39/C++/Wavefront" />
+            <Add directory="/opt/Qt/5.4/gcc_64/include" />
+            <Add directory="/opt/Qt/5.4/gcc_64/include/QtCore" />
+            <Add directory="/opt/Qt/5.4/gcc_64/include/QtGui" />
+            <Add directory="/opt/Qt/5.4/gcc_64/mkspecs/linux-g++" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/4.8" />
+            <Add directory="/usr/include/c++/4.8/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/4.8" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/mica/Bureau/FAC/Mif39/C++-build/Wavefront/Makefile&quot;  VERBOSE=1 Wavefront" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/mica/Bureau/FAC/Mif39/C++-build/Wavefront/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/mica/Bureau/FAC/Mif39/C++-build/Wavefront/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/mica/Bureau/FAC/Mif39/C++-build/Wavefront/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="Wavefront/fast">
+         <Option output="/home/mica/Bureau/FAC/Mif39/C++-build/lib/libWavefront.so" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/mica/Bureau/FAC/Mif39/C++-build/Wavefront" />
+         <Option object_output="./" />
+         <Option type="3" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DQT_CORE_LIB" />
+            <Add option="-DQT_NO_DEBUG" />
+            <Add option="-DQT_GUI_LIB" />
+            <Add directory="/home/mica/Bureau/FAC/Mif39/C++-build/Wavefront" />
+            <Add directory="/home/mica/Bureau/FAC/Mif39/C++/." />
+            <Add directory="/home/mica/Bureau/FAC/Mif39/C++/Wavefront" />
+            <Add directory="/opt/Qt/5.4/gcc_64/include" />
+            <Add directory="/opt/Qt/5.4/gcc_64/include/QtCore" />
+            <Add directory="/opt/Qt/5.4/gcc_64/include/QtGui" />
+            <Add directory="/opt/Qt/5.4/gcc_64/mkspecs/linux-g++" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/4.8" />
+            <Add directory="/usr/include/c++/4.8/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/4.8" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/mica/Bureau/FAC/Mif39/C++-build/Wavefront/Makefile&quot;  VERBOSE=1 Wavefront/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/mica/Bureau/FAC/Mif39/C++-build/Wavefront/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/mica/Bureau/FAC/Mif39/C++-build/Wavefront/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/mica/Bureau/FAC/Mif39/C++-build/Wavefront/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="FuzzyLogicBehaviour">
+         <Option output="/home/mica/Bureau/FAC/Mif39/C++-build/lib/libFuzzyLogicBehaviour.so" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/mica/Bureau/FAC/Mif39/C++-build/FuzzyLogicBehaviour" />
+         <Option object_output="./" />
+         <Option type="3" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DQT_CORE_LIB" />
+            <Add option="-DQT_NO_DEBUG" />
+            <Add option="-DQT_GUI_LIB" />
+            <Add directory="/home/mica/Bureau/FAC/Mif39/C++-build/FuzzyLogicBehaviour" />
+            <Add directory="/home/mica/Bureau/FAC/Mif39/C++/." />
+            <Add directory="/home/mica/Bureau/FAC/Mif39/C++/FuzzyLogicBehaviour" />
+            <Add directory="/opt/Qt/5.4/gcc_64/include" />
+            <Add directory="/opt/Qt/5.4/gcc_64/include/QtCore" />
+            <Add directory="/opt/Qt/5.4/gcc_64/include/QtGui" />
+            <Add directory="/opt/Qt/5.4/gcc_64/mkspecs/linux-g++" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/4.8" />
+            <Add directory="/usr/include/c++/4.8/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/4.8" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/mica/Bureau/FAC/Mif39/C++-build/FuzzyLogicBehaviour/Makefile&quot;  VERBOSE=1 FuzzyLogicBehaviour" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/mica/Bureau/FAC/Mif39/C++-build/FuzzyLogicBehaviour/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/mica/Bureau/FAC/Mif39/C++-build/FuzzyLogicBehaviour/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/mica/Bureau/FAC/Mif39/C++-build/FuzzyLogicBehaviour/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="FuzzyLogicBehaviour/fast">
+         <Option output="/home/mica/Bureau/FAC/Mif39/C++-build/lib/libFuzzyLogicBehaviour.so" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/mica/Bureau/FAC/Mif39/C++-build/FuzzyLogicBehaviour" />
+         <Option object_output="./" />
+         <Option type="3" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DQT_CORE_LIB" />
+            <Add option="-DQT_NO_DEBUG" />
+            <Add option="-DQT_GUI_LIB" />
+            <Add directory="/home/mica/Bureau/FAC/Mif39/C++-build/FuzzyLogicBehaviour" />
+            <Add directory="/home/mica/Bureau/FAC/Mif39/C++/." />
+            <Add directory="/home/mica/Bureau/FAC/Mif39/C++/FuzzyLogicBehaviour" />
+            <Add directory="/opt/Qt/5.4/gcc_64/include" />
+            <Add directory="/opt/Qt/5.4/gcc_64/include/QtCore" />
+            <Add directory="/opt/Qt/5.4/gcc_64/include/QtGui" />
+            <Add directory="/opt/Qt/5.4/gcc_64/mkspecs/linux-g++" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/4.8" />
+            <Add directory="/usr/include/c++/4.8/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/4.8" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/mica/Bureau/FAC/Mif39/C++-build/FuzzyLogicBehaviour/Makefile&quot;  VERBOSE=1 FuzzyLogicBehaviour/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/mica/Bureau/FAC/Mif39/C++-build/FuzzyLogicBehaviour/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/mica/Bureau/FAC/Mif39/C++-build/FuzzyLogicBehaviour/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/mica/Bureau/FAC/Mif39/C++-build/FuzzyLogicBehaviour/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="QImageLoader">
+         <Option output="/home/mica/Bureau/FAC/Mif39/C++-build/lib/libQImageLoader.so" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/mica/Bureau/FAC/Mif39/C++-build/QImageLoader" />
+         <Option object_output="./" />
+         <Option type="3" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DQT_CORE_LIB" />
+            <Add option="-DQT_NO_DEBUG" />
+            <Add option="-DQT_GUI_LIB" />
+            <Add directory="/home/mica/Bureau/FAC/Mif39/C++-build/QImageLoader" />
+            <Add directory="/home/mica/Bureau/FAC/Mif39/C++/." />
+            <Add directory="/home/mica/Bureau/FAC/Mif39/C++/QImageLoader" />
+            <Add directory="/opt/Qt/5.4/gcc_64/include" />
+            <Add directory="/opt/Qt/5.4/gcc_64/include/QtCore" />
+            <Add directory="/opt/Qt/5.4/gcc_64/include/QtGui" />
+            <Add directory="/opt/Qt/5.4/gcc_64/mkspecs/linux-g++" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/4.8" />
+            <Add directory="/usr/include/c++/4.8/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/4.8" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/mica/Bureau/FAC/Mif39/C++-build/QImageLoader/Makefile&quot;  VERBOSE=1 QImageLoader" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/mica/Bureau/FAC/Mif39/C++-build/QImageLoader/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/mica/Bureau/FAC/Mif39/C++-build/QImageLoader/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/mica/Bureau/FAC/Mif39/C++-build/QImageLoader/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="QImageLoader/fast">
+         <Option output="/home/mica/Bureau/FAC/Mif39/C++-build/lib/libQImageLoader.so" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/mica/Bureau/FAC/Mif39/C++-build/QImageLoader" />
+         <Option object_output="./" />
+         <Option type="3" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DQT_CORE_LIB" />
+            <Add option="-DQT_NO_DEBUG" />
+            <Add option="-DQT_GUI_LIB" />
+            <Add directory="/home/mica/Bureau/FAC/Mif39/C++-build/QImageLoader" />
+            <Add directory="/home/mica/Bureau/FAC/Mif39/C++/." />
+            <Add directory="/home/mica/Bureau/FAC/Mif39/C++/QImageLoader" />
+            <Add directory="/opt/Qt/5.4/gcc_64/include" />
+            <Add directory="/opt/Qt/5.4/gcc_64/include/QtCore" />
+            <Add directory="/opt/Qt/5.4/gcc_64/include/QtGui" />
+            <Add directory="/opt/Qt/5.4/gcc_64/mkspecs/linux-g++" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/4.8" />
+            <Add directory="/usr/include/c++/4.8/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/4.8" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/mica/Bureau/FAC/Mif39/C++-build/QImageLoader/Makefile&quot;  VERBOSE=1 QImageLoader/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/mica/Bureau/FAC/Mif39/C++-build/QImageLoader/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/mica/Bureau/FAC/Mif39/C++-build/QImageLoader/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/mica/Bureau/FAC/Mif39/C++-build/QImageLoader/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="WavefrontTest">
+         <Option output="/home/mica/Bureau/FAC/Mif39/C++-build/bin/WavefrontTest" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/mica/Bureau/FAC/Mif39/C++-build/bin" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DQT_CORE_LIB" />
+            <Add option="-DQT_NO_DEBUG" />
+            <Add option="-DQT_GUI_LIB" />
+            <Add directory="/home/mica/Bureau/FAC/Mif39/C++-build/Samples/WavefrontTest" />
+            <Add directory="/home/mica/Bureau/FAC/Mif39/C++/." />
+            <Add directory="/home/mica/Bureau/FAC/Mif39/C++/Samples/WavefrontTest" />
+            <Add directory="/opt/Qt/5.4/gcc_64/include" />
+            <Add directory="/opt/Qt/5.4/gcc_64/include/QtCore" />
+            <Add directory="/opt/Qt/5.4/gcc_64/include/QtGui" />
+            <Add directory="/opt/Qt/5.4/gcc_64/mkspecs/linux-g++" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/4.8" />
+            <Add directory="/usr/include/c++/4.8/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/4.8" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/mica/Bureau/FAC/Mif39/C++-build/Samples/WavefrontTest/Makefile&quot;  VERBOSE=1 WavefrontTest" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/mica/Bureau/FAC/Mif39/C++-build/Samples/WavefrontTest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/mica/Bureau/FAC/Mif39/C++-build/Samples/WavefrontTest/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/mica/Bureau/FAC/Mif39/C++-build/Samples/WavefrontTest/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="WavefrontTest/fast">
+         <Option output="/home/mica/Bureau/FAC/Mif39/C++-build/bin/WavefrontTest" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/mica/Bureau/FAC/Mif39/C++-build/bin" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DQT_CORE_LIB" />
+            <Add option="-DQT_NO_DEBUG" />
+            <Add option="-DQT_GUI_LIB" />
+            <Add directory="/home/mica/Bureau/FAC/Mif39/C++-build/Samples/WavefrontTest" />
+            <Add directory="/home/mica/Bureau/FAC/Mif39/C++/." />
+            <Add directory="/home/mica/Bureau/FAC/Mif39/C++/Samples/WavefrontTest" />
+            <Add directory="/opt/Qt/5.4/gcc_64/include" />
+            <Add directory="/opt/Qt/5.4/gcc_64/include/QtCore" />
+            <Add directory="/opt/Qt/5.4/gcc_64/include/QtGui" />
+            <Add directory="/opt/Qt/5.4/gcc_64/mkspecs/linux-g++" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/4.8" />
+            <Add directory="/usr/include/c++/4.8/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/4.8" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/mica/Bureau/FAC/Mif39/C++-build/Samples/WavefrontTest/Makefile&quot;  VERBOSE=1 WavefrontTest/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/mica/Bureau/FAC/Mif39/C++-build/Samples/WavefrontTest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/mica/Bureau/FAC/Mif39/C++-build/Samples/WavefrontTest/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/mica/Bureau/FAC/Mif39/C++-build/Samples/WavefrontTest/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="SimpleAssetServer">
+         <Option output="/home/mica/Bureau/FAC/Mif39/C++-build/bin/SimpleAssetServer" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/mica/Bureau/FAC/Mif39/C++-build/bin" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DQT_CORE_LIB" />
+            <Add option="-DQT_NO_DEBUG" />
+            <Add option="-DQT_GUI_LIB" />
+            <Add directory="/home/mica/Bureau/FAC/Mif39/C++-build/Samples/SimpleAssetServer" />
+            <Add directory="/home/mica/Bureau/FAC/Mif39/C++/." />
+            <Add directory="/home/mica/Bureau/FAC/Mif39/C++/Samples/SimpleAssetServer" />
+            <Add directory="/opt/Qt/5.4/gcc_64/include" />
+            <Add directory="/opt/Qt/5.4/gcc_64/include/QtCore" />
+            <Add directory="/opt/Qt/5.4/gcc_64/include/QtGui" />
+            <Add directory="/opt/Qt/5.4/gcc_64/mkspecs/linux-g++" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/4.8" />
+            <Add directory="/usr/include/c++/4.8/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/4.8" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/mica/Bureau/FAC/Mif39/C++-build/Samples/SimpleAssetServer/Makefile&quot;  VERBOSE=1 SimpleAssetServer" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/mica/Bureau/FAC/Mif39/C++-build/Samples/SimpleAssetServer/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/mica/Bureau/FAC/Mif39/C++-build/Samples/SimpleAssetServer/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/mica/Bureau/FAC/Mif39/C++-build/Samples/SimpleAssetServer/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="SimpleAssetServer/fast">
+         <Option output="/home/mica/Bureau/FAC/Mif39/C++-build/bin/SimpleAssetServer" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/mica/Bureau/FAC/Mif39/C++-build/bin" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DQT_CORE_LIB" />
+            <Add option="-DQT_NO_DEBUG" />
+            <Add option="-DQT_GUI_LIB" />
+            <Add directory="/home/mica/Bureau/FAC/Mif39/C++-build/Samples/SimpleAssetServer" />
+            <Add directory="/home/mica/Bureau/FAC/Mif39/C++/." />
+            <Add directory="/home/mica/Bureau/FAC/Mif39/C++/Samples/SimpleAssetServer" />
+            <Add directory="/opt/Qt/5.4/gcc_64/include" />
+            <Add directory="/opt/Qt/5.4/gcc_64/include/QtCore" />
+            <Add directory="/opt/Qt/5.4/gcc_64/include/QtGui" />
+            <Add directory="/opt/Qt/5.4/gcc_64/mkspecs/linux-g++" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/4.8" />
+            <Add directory="/usr/include/c++/4.8/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/4.8" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/mica/Bureau/FAC/Mif39/C++-build/Samples/SimpleAssetServer/Makefile&quot;  VERBOSE=1 SimpleAssetServer/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/mica/Bureau/FAC/Mif39/C++-build/Samples/SimpleAssetServer/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/mica/Bureau/FAC/Mif39/C++-build/Samples/SimpleAssetServer/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/mica/Bureau/FAC/Mif39/C++-build/Samples/SimpleAssetServer/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="SimpleAssetClient">
+         <Option output="/home/mica/Bureau/FAC/Mif39/C++-build/bin/SimpleAssetClient" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/mica/Bureau/FAC/Mif39/C++-build/bin" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DQT_CORE_LIB" />
+            <Add option="-DQT_NO_DEBUG" />
+            <Add option="-DQT_GUI_LIB" />
+            <Add directory="/home/mica/Bureau/FAC/Mif39/C++-build/Samples/SimpleAssetClient" />
+            <Add directory="/home/mica/Bureau/FAC/Mif39/C++/." />
+            <Add directory="/home/mica/Bureau/FAC/Mif39/C++/Samples/SimpleAssetClient" />
+            <Add directory="/opt/Qt/5.4/gcc_64/include" />
+            <Add directory="/opt/Qt/5.4/gcc_64/include/QtCore" />
+            <Add directory="/opt/Qt/5.4/gcc_64/include/QtGui" />
+            <Add directory="/opt/Qt/5.4/gcc_64/mkspecs/linux-g++" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/4.8" />
+            <Add directory="/usr/include/c++/4.8/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/4.8" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/mica/Bureau/FAC/Mif39/C++-build/Samples/SimpleAssetClient/Makefile&quot;  VERBOSE=1 SimpleAssetClient" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/mica/Bureau/FAC/Mif39/C++-build/Samples/SimpleAssetClient/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/mica/Bureau/FAC/Mif39/C++-build/Samples/SimpleAssetClient/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/mica/Bureau/FAC/Mif39/C++-build/Samples/SimpleAssetClient/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="SimpleAssetClient/fast">
+         <Option output="/home/mica/Bureau/FAC/Mif39/C++-build/bin/SimpleAssetClient" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/mica/Bureau/FAC/Mif39/C++-build/bin" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DQT_CORE_LIB" />
+            <Add option="-DQT_NO_DEBUG" />
+            <Add option="-DQT_GUI_LIB" />
+            <Add directory="/home/mica/Bureau/FAC/Mif39/C++-build/Samples/SimpleAssetClient" />
+            <Add directory="/home/mica/Bureau/FAC/Mif39/C++/." />
+            <Add directory="/home/mica/Bureau/FAC/Mif39/C++/Samples/SimpleAssetClient" />
+            <Add directory="/opt/Qt/5.4/gcc_64/include" />
+            <Add directory="/opt/Qt/5.4/gcc_64/include/QtCore" />
+            <Add directory="/opt/Qt/5.4/gcc_64/include/QtGui" />
+            <Add directory="/opt/Qt/5.4/gcc_64/mkspecs/linux-g++" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/4.8" />
+            <Add directory="/usr/include/c++/4.8/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/4.8" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/mica/Bureau/FAC/Mif39/C++-build/Samples/SimpleAssetClient/Makefile&quot;  VERBOSE=1 SimpleAssetClient/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/mica/Bureau/FAC/Mif39/C++-build/Samples/SimpleAssetClient/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/mica/Bureau/FAC/Mif39/C++-build/Samples/SimpleAssetClient/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/mica/Bureau/FAC/Mif39/C++-build/Samples/SimpleAssetClient/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="GraalWavefrontTest">
+         <Option output="/home/mica/Bureau/FAC/Mif39/C++-build/bin/GraalWavefrontTest" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/mica/Bureau/FAC/Mif39/C++-build/bin" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DQT_CORE_LIB" />
+            <Add option="-DQT_NO_DEBUG" />
+            <Add option="-DQT_GUI_LIB" />
+            <Add directory="/home/mica/Bureau/FAC/Mif39/C++-build/Graal/GraalWavefrontTest" />
+            <Add directory="/home/mica/Bureau/FAC/Mif39/C++/." />
+            <Add directory="/home/mica/Bureau/FAC/Mif39/C++/Graal/GraalWavefrontTest" />
+            <Add directory="/opt/Qt/5.4/gcc_64/include" />
+            <Add directory="/opt/Qt/5.4/gcc_64/include/QtCore" />
+            <Add directory="/opt/Qt/5.4/gcc_64/include/QtGui" />
+            <Add directory="/opt/Qt/5.4/gcc_64/mkspecs/linux-g++" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/4.8" />
+            <Add directory="/usr/include/c++/4.8/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/4.8" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/mica/Bureau/FAC/Mif39/C++-build/Graal/GraalWavefrontTest/Makefile&quot;  VERBOSE=1 GraalWavefrontTest" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/mica/Bureau/FAC/Mif39/C++-build/Graal/GraalWavefrontTest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/mica/Bureau/FAC/Mif39/C++-build/Graal/GraalWavefrontTest/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/mica/Bureau/FAC/Mif39/C++-build/Graal/GraalWavefrontTest/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="GraalWavefrontTest/fast">
+         <Option output="/home/mica/Bureau/FAC/Mif39/C++-build/bin/GraalWavefrontTest" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/mica/Bureau/FAC/Mif39/C++-build/bin" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DQT_CORE_LIB" />
+            <Add option="-DQT_NO_DEBUG" />
+            <Add option="-DQT_GUI_LIB" />
+            <Add directory="/home/mica/Bureau/FAC/Mif39/C++-build/Graal/GraalWavefrontTest" />
+            <Add directory="/home/mica/Bureau/FAC/Mif39/C++/." />
+            <Add directory="/home/mica/Bureau/FAC/Mif39/C++/Graal/GraalWavefrontTest" />
+            <Add directory="/opt/Qt/5.4/gcc_64/include" />
+            <Add directory="/opt/Qt/5.4/gcc_64/include/QtCore" />
+            <Add directory="/opt/Qt/5.4/gcc_64/include/QtGui" />
+            <Add directory="/opt/Qt/5.4/gcc_64/mkspecs/linux-g++" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/4.8" />
+            <Add directory="/usr/include/c++/4.8/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/4.8" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/mica/Bureau/FAC/Mif39/C++-build/Graal/GraalWavefrontTest/Makefile&quot;  VERBOSE=1 GraalWavefrontTest/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/mica/Bureau/FAC/Mif39/C++-build/Graal/GraalWavefrontTest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/mica/Bureau/FAC/Mif39/C++-build/Graal/GraalWavefrontTest/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/mica/Bureau/FAC/Mif39/C++-build/Graal/GraalWavefrontTest/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="GraalAssetServer">
+         <Option output="/home/mica/Bureau/FAC/Mif39/C++-build/bin/GraalAssetServer" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/mica/Bureau/FAC/Mif39/C++-build/bin" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DQT_CORE_LIB" />
+            <Add option="-DQT_NO_DEBUG" />
+            <Add option="-DQT_GUI_LIB" />
+            <Add directory="/home/mica/Bureau/FAC/Mif39/C++-build/Graal/GraalAssetServer" />
+            <Add directory="/home/mica/Bureau/FAC/Mif39/C++/." />
+            <Add directory="/home/mica/Bureau/FAC/Mif39/C++/Graal/GraalAssetServer" />
+            <Add directory="/opt/Qt/5.4/gcc_64/include" />
+            <Add directory="/opt/Qt/5.4/gcc_64/include/QtCore" />
+            <Add directory="/opt/Qt/5.4/gcc_64/include/QtGui" />
+            <Add directory="/opt/Qt/5.4/gcc_64/mkspecs/linux-g++" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/4.8" />
+            <Add directory="/usr/include/c++/4.8/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/4.8" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/mica/Bureau/FAC/Mif39/C++-build/Graal/GraalAssetServer/Makefile&quot;  VERBOSE=1 GraalAssetServer" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/mica/Bureau/FAC/Mif39/C++-build/Graal/GraalAssetServer/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/mica/Bureau/FAC/Mif39/C++-build/Graal/GraalAssetServer/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/mica/Bureau/FAC/Mif39/C++-build/Graal/GraalAssetServer/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="GraalAssetServer/fast">
+         <Option output="/home/mica/Bureau/FAC/Mif39/C++-build/bin/GraalAssetServer" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/mica/Bureau/FAC/Mif39/C++-build/bin" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DQT_CORE_LIB" />
+            <Add option="-DQT_NO_DEBUG" />
+            <Add option="-DQT_GUI_LIB" />
+            <Add directory="/home/mica/Bureau/FAC/Mif39/C++-build/Graal/GraalAssetServer" />
+            <Add directory="/home/mica/Bureau/FAC/Mif39/C++/." />
+            <Add directory="/home/mica/Bureau/FAC/Mif39/C++/Graal/GraalAssetServer" />
+            <Add directory="/opt/Qt/5.4/gcc_64/include" />
+            <Add directory="/opt/Qt/5.4/gcc_64/include/QtCore" />
+            <Add directory="/opt/Qt/5.4/gcc_64/include/QtGui" />
+            <Add directory="/opt/Qt/5.4/gcc_64/mkspecs/linux-g++" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/4.8" />
+            <Add directory="/usr/include/c++/4.8/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/4.8" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/mica/Bureau/FAC/Mif39/C++-build/Graal/GraalAssetServer/Makefile&quot;  VERBOSE=1 GraalAssetServer/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/mica/Bureau/FAC/Mif39/C++-build/Graal/GraalAssetServer/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/mica/Bureau/FAC/Mif39/C++-build/Graal/GraalAssetServer/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/mica/Bureau/FAC/Mif39/C++-build/Graal/GraalAssetServer/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="GraalAssetClient">
+         <Option output="/home/mica/Bureau/FAC/Mif39/C++-build/bin/GraalAssetClient" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/mica/Bureau/FAC/Mif39/C++-build/bin" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DQT_CORE_LIB" />
+            <Add option="-DQT_NO_DEBUG" />
+            <Add option="-DQT_GUI_LIB" />
+            <Add directory="/home/mica/Bureau/FAC/Mif39/C++-build/Graal/GraalAssetClient" />
+            <Add directory="/home/mica/Bureau/FAC/Mif39/C++/." />
+            <Add directory="/home/mica/Bureau/FAC/Mif39/C++/Graal/GraalAssetClient" />
+            <Add directory="/opt/Qt/5.4/gcc_64/include" />
+            <Add directory="/opt/Qt/5.4/gcc_64/include/QtCore" />
+            <Add directory="/opt/Qt/5.4/gcc_64/include/QtGui" />
+            <Add directory="/opt/Qt/5.4/gcc_64/mkspecs/linux-g++" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/4.8" />
+            <Add directory="/usr/include/c++/4.8/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/4.8" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/mica/Bureau/FAC/Mif39/C++-build/Graal/GraalAssetClient/Makefile&quot;  VERBOSE=1 GraalAssetClient" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/mica/Bureau/FAC/Mif39/C++-build/Graal/GraalAssetClient/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/mica/Bureau/FAC/Mif39/C++-build/Graal/GraalAssetClient/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/mica/Bureau/FAC/Mif39/C++-build/Graal/GraalAssetClient/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="GraalAssetClient/fast">
+         <Option output="/home/mica/Bureau/FAC/Mif39/C++-build/bin/GraalAssetClient" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/mica/Bureau/FAC/Mif39/C++-build/bin" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DQT_CORE_LIB" />
+            <Add option="-DQT_NO_DEBUG" />
+            <Add option="-DQT_GUI_LIB" />
+            <Add directory="/home/mica/Bureau/FAC/Mif39/C++-build/Graal/GraalAssetClient" />
+            <Add directory="/home/mica/Bureau/FAC/Mif39/C++/." />
+            <Add directory="/home/mica/Bureau/FAC/Mif39/C++/Graal/GraalAssetClient" />
+            <Add directory="/opt/Qt/5.4/gcc_64/include" />
+            <Add directory="/opt/Qt/5.4/gcc_64/include/QtCore" />
+            <Add directory="/opt/Qt/5.4/gcc_64/include/QtGui" />
+            <Add directory="/opt/Qt/5.4/gcc_64/mkspecs/linux-g++" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/4.8" />
+            <Add directory="/usr/include/c++/4.8/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/4.8" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/mica/Bureau/FAC/Mif39/C++-build/Graal/GraalAssetClient/Makefile&quot;  VERBOSE=1 GraalAssetClient/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/mica/Bureau/FAC/Mif39/C++-build/Graal/GraalAssetClient/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/mica/Bureau/FAC/Mif39/C++-build/Graal/GraalAssetClient/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/mica/Bureau/FAC/Mif39/C++-build/Graal/GraalAssetClient/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      </Build>
+      <Unit filename="/home/mica/Bureau/FAC/Mif39/C++/AssetGenerics/generics.cpp">
+      </Unit>
+      <Unit filename="/home/mica/Bureau/FAC/Mif39/C++/AssetInterfaces/attributecontainer.cpp">
+      </Unit>
+      <Unit filename="/home/mica/Bureau/FAC/Mif39/C++/AssetInterfaces/interfaces.cpp">
+      </Unit>
+      <Unit filename="/home/mica/Bureau/FAC/Mif39/C++/AssetInterfaces/iresource.cpp">
+      </Unit>
+      <Unit filename="/home/mica/Bureau/FAC/Mif39/C++/AssetInterfaces/isharedresource.cpp">
+      </Unit>
+      <Unit filename="/home/mica/Bureau/FAC/Mif39/C++/AssetInterfaces/isharedresourcemanager.cpp">
+      </Unit>
+      <Unit filename="/home/mica/Bureau/FAC/Mif39/C++/AssetInterfaces/resourceholder.cpp">
+      </Unit>
+      <Unit filename="/home/mica/Bureau/FAC/Mif39/C++/Assets/Image.cpp">
+      </Unit>
+      <Unit filename="/home/mica/Bureau/FAC/Mif39/C++/Assets/Material.cpp">
+      </Unit>
+      <Unit filename="/home/mica/Bureau/FAC/Mif39/C++/Assets/Mesh.cpp">
+      </Unit>
+      <Unit filename="/home/mica/Bureau/FAC/Mif39/C++/Assets/assets.cpp">
+      </Unit>
+      <Unit filename="/home/mica/Bureau/FAC/Mif39/C++/Assets/behaviour.cpp">
+      </Unit>
+      <Unit filename="/home/mica/Bureau/FAC/Mif39/C++/Assets/gameentity.cpp">
+      </Unit>
+      <Unit filename="/home/mica/Bureau/FAC/Mif39/C++/FuzzyLogicBehaviour/fuzzylogicbehaviour.cpp">
+      </Unit>
+      <Unit filename="/home/mica/Bureau/FAC/Mif39/C++/Graal/GraalAssetClient/main.cpp">
+      </Unit>
+      <Unit filename="/home/mica/Bureau/FAC/Mif39/C++/Graal/GraalAssetServer/main.cpp">
+      </Unit>
+      <Unit filename="/home/mica/Bureau/FAC/Mif39/C++/Graal/GraalWavefrontTest/main.cpp">
+      </Unit>
+      <Unit filename="/home/mica/Bureau/FAC/Mif39/C++/Networking/communicationpolicy.cpp">
+      </Unit>
+      <Unit filename="/home/mica/Bureau/FAC/Mif39/C++/Networking/connectionstream.cpp">
+      </Unit>
+      <Unit filename="/home/mica/Bureau/FAC/Mif39/C++/Networking/networkbuffer.cpp">
+      </Unit>
+      <Unit filename="/home/mica/Bureau/FAC/Mif39/C++/QImageLoader/qimageloader.cpp">
+      </Unit>
+      <Unit filename="/home/mica/Bureau/FAC/Mif39/C++/Samples/SimpleAssetClient/main.cpp">
+      </Unit>
+      <Unit filename="/home/mica/Bureau/FAC/Mif39/C++/Samples/SimpleAssetServer/main.cpp">
+      </Unit>
+      <Unit filename="/home/mica/Bureau/FAC/Mif39/C++/Samples/WavefrontTest/main.cpp">
+      </Unit>
+      <Unit filename="/home/mica/Bureau/FAC/Mif39/C++/TcpNetworking/simpletcpendpoint.cpp">
+      </Unit>
+      <Unit filename="/home/mica/Bureau/FAC/Mif39/C++/TcpNetworking/simpletcpstartpoint.cpp">
+      </Unit>
+      <Unit filename="/home/mica/Bureau/FAC/Mif39/C++/TcpNetworking/tcpsocket.cpp">
+      </Unit>
+      <Unit filename="/home/mica/Bureau/FAC/Mif39/C++/Utility/bytebuffer.cpp">
+      </Unit>
+      <Unit filename="/home/mica/Bureau/FAC/Mif39/C++/Utility/filedescriptor.cpp">
+      </Unit>
+      <Unit filename="/home/mica/Bureau/FAC/Mif39/C++/Utility/filetokenizer.cpp">
+      </Unit>
+      <Unit filename="/home/mica/Bureau/FAC/Mif39/C++/Utility/hasname.cpp">
+      </Unit>
+      <Unit filename="/home/mica/Bureau/FAC/Mif39/C++/Utility/hasuuid.cpp">
+      </Unit>
+      <Unit filename="/home/mica/Bureau/FAC/Mif39/C++/Utility/utility.cpp">
+      </Unit>
+      <Unit filename="/home/mica/Bureau/FAC/Mif39/C++/Wavefront/wavefront.cpp">
+      </Unit>
+      <Unit filename="/home/mica/Bureau/FAC/Mif39/C++/Wavefront/wavefrontloadermtl.cpp">
+      </Unit>
+      <Unit filename="/home/mica/Bureau/FAC/Mif39/C++/Wavefront/wavefrontloaderobj.cpp">
+      </Unit>
+      <Unit filename="/home/mica/Bureau/FAC/Mif39/C++/Wavefront/wavefrontmaterial.cpp">
+      </Unit>
+      <Unit filename="/home/mica/Bureau/FAC/Mif39/C++/AssetGenerics/generics.hpp">
+      </Unit>
+      <Unit filename="/home/mica/Bureau/FAC/Mif39/C++/AssetGenerics/internals.hpp">
+      </Unit>
+      <Unit filename="/home/mica/Bureau/FAC/Mif39/C++/AssetGenerics/resourceattribute.hpp">
+      </Unit>
+      <Unit filename="/home/mica/Bureau/FAC/Mif39/C++/AssetGenerics/sharedresource.hpp">
+      </Unit>
+      <Unit filename="/home/mica/Bureau/FAC/Mif39/C++/AssetGenerics/sharedresourceloader.hpp">
+      </Unit>
+      <Unit filename="/home/mica/Bureau/FAC/Mif39/C++/AssetGenerics/sharedresourcemanager.hpp">
+      </Unit>
+      <Unit filename="/home/mica/Bureau/FAC/Mif39/C++/AssetInterfaces/attributecontainer.hpp">
+      </Unit>
+      <Unit filename="/home/mica/Bureau/FAC/Mif39/C++/AssetInterfaces/interfaces.hpp">
+      </Unit>
+      <Unit filename="/home/mica/Bureau/FAC/Mif39/C++/AssetInterfaces/internals.hpp">
+      </Unit>
+      <Unit filename="/home/mica/Bureau/FAC/Mif39/C++/AssetInterfaces/iresource.hpp">
+      </Unit>
+      <Unit filename="/home/mica/Bureau/FAC/Mif39/C++/AssetInterfaces/iresourceattribute.hpp">
+      </Unit>
+      <Unit filename="/home/mica/Bureau/FAC/Mif39/C++/AssetInterfaces/isharedresource.hpp">
+      </Unit>
+      <Unit filename="/home/mica/Bureau/FAC/Mif39/C++/AssetInterfaces/isharedresourceloader.hpp">
+      </Unit>
+      <Unit filename="/home/mica/Bureau/FAC/Mif39/C++/AssetInterfaces/isharedresourcemanager.hpp">
+      </Unit>
+      <Unit filename="/home/mica/Bureau/FAC/Mif39/C++/AssetInterfaces/resourceholder.hpp">
+      </Unit>
+      <Unit filename="/home/mica/Bureau/FAC/Mif39/C++/Assets/Image.hpp">
+      </Unit>
+      <Unit filename="/home/mica/Bureau/FAC/Mif39/C++/Assets/Material.hpp">
+      </Unit>
+      <Unit filename="/home/mica/Bureau/FAC/Mif39/C++/Assets/Mesh.hpp">
+      </Unit>
+      <Unit filename="/home/mica/Bureau/FAC/Mif39/C++/Assets/assets.hpp">
+      </Unit>
+      <Unit filename="/home/mica/Bureau/FAC/Mif39/C++/Assets/behaviour.hpp">
+      </Unit>
+      <Unit filename="/home/mica/Bureau/FAC/Mif39/C++/Assets/gameentity.hpp">
+      </Unit>
+      <Unit filename="/home/mica/Bureau/FAC/Mif39/C++/Assets/structures.hpp">
+      </Unit>
+      <Unit filename="/home/mica/Bureau/FAC/Mif39/C++/FuzzyLogicBehaviour/fuzzylogicbehaviour.hpp">
+      </Unit>
+      <Unit filename="/home/mica/Bureau/FAC/Mif39/C++/Graal/GraalAssetServer/serverutil.hpp">
+      </Unit>
+      <Unit filename="/home/mica/Bureau/FAC/Mif39/C++/Networking/communicationpolicy.hpp">
+      </Unit>
+      <Unit filename="/home/mica/Bureau/FAC/Mif39/C++/Networking/connectionstream.hpp">
+      </Unit>
+      <Unit filename="/home/mica/Bureau/FAC/Mif39/C++/Networking/networkbuffer.hpp">
+      </Unit>
+      <Unit filename="/home/mica/Bureau/FAC/Mif39/C++/Networking/networking.hpp">
+      </Unit>
+      <Unit filename="/home/mica/Bureau/FAC/Mif39/C++/QImageLoader/qimageloader.hpp">
+      </Unit>
+      <Unit filename="/home/mica/Bureau/FAC/Mif39/C++/TcpNetworking/simpletcpendpoint.hpp">
+      </Unit>
+      <Unit filename="/home/mica/Bureau/FAC/Mif39/C++/TcpNetworking/simpletcpstartpoint.hpp">
+      </Unit>
+      <Unit filename="/home/mica/Bureau/FAC/Mif39/C++/TcpNetworking/tcpsocket.hpp">
+      </Unit>
+      <Unit filename="/home/mica/Bureau/FAC/Mif39/C++/Utility/bytebuffer.hpp">
+      </Unit>
+      <Unit filename="/home/mica/Bureau/FAC/Mif39/C++/Utility/filedescriptor.hpp">
+      </Unit>
+      <Unit filename="/home/mica/Bureau/FAC/Mif39/C++/Utility/filetokenizer.hpp">
+      </Unit>
+      <Unit filename="/home/mica/Bureau/FAC/Mif39/C++/Utility/hasname.hpp">
+      </Unit>
+      <Unit filename="/home/mica/Bureau/FAC/Mif39/C++/Utility/hasuuid.hpp">
+      </Unit>
+      <Unit filename="/home/mica/Bureau/FAC/Mif39/C++/Utility/includes.hpp">
+      </Unit>
+      <Unit filename="/home/mica/Bureau/FAC/Mif39/C++/Utility/listof.hpp">
+      </Unit>
+      <Unit filename="/home/mica/Bureau/FAC/Mif39/C++/Utility/singleton.hpp">
+      </Unit>
+      <Unit filename="/home/mica/Bureau/FAC/Mif39/C++/Utility/tokenized.hpp">
+      </Unit>
+      <Unit filename="/home/mica/Bureau/FAC/Mif39/C++/Utility/utility.hpp">
+      </Unit>
+      <Unit filename="/home/mica/Bureau/FAC/Mif39/C++/Wavefront/wavefront.hpp">
+      </Unit>
+      <Unit filename="/home/mica/Bureau/FAC/Mif39/C++/Wavefront/wavefrontloadermtl.hpp">
+      </Unit>
+      <Unit filename="/home/mica/Bureau/FAC/Mif39/C++/Wavefront/wavefrontloaderobj.hpp">
+      </Unit>
+      <Unit filename="/home/mica/Bureau/FAC/Mif39/C++/Wavefront/wavefrontmaterial.hpp">
+      </Unit>
+      <Unit filename="/home/mica/Bureau/FAC/Mif39/C++/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\" />
+      </Unit>
+      <Unit filename="/home/mica/Bureau/FAC/Mif39/C++/AssetGenerics/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\AssetGenerics\" />
+      </Unit>
+      <Unit filename="/home/mica/Bureau/FAC/Mif39/C++/AssetGenerics/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\AssetGenerics\" />
+      </Unit>
+      <Unit filename="/home/mica/Bureau/FAC/Mif39/C++/AssetInterfaces/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\AssetInterfaces\" />
+      </Unit>
+      <Unit filename="/home/mica/Bureau/FAC/Mif39/C++/AssetInterfaces/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\AssetInterfaces\" />
+      </Unit>
+      <Unit filename="/home/mica/Bureau/FAC/Mif39/C++/Assets/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\Assets\" />
+      </Unit>
+      <Unit filename="/home/mica/Bureau/FAC/Mif39/C++/Assets/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\Assets\" />
+      </Unit>
+      <Unit filename="/home/mica/Bureau/FAC/Mif39/C++/FuzzyLogicBehaviour/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\FuzzyLogicBehaviour\" />
+      </Unit>
+      <Unit filename="/home/mica/Bureau/FAC/Mif39/C++/FuzzyLogicBehaviour/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\FuzzyLogicBehaviour\" />
+      </Unit>
+      <Unit filename="/home/mica/Bureau/FAC/Mif39/C++/Graal/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\Graal\" />
+      </Unit>
+      <Unit filename="/home/mica/Bureau/FAC/Mif39/C++/Graal/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\Graal\" />
+      </Unit>
+      <Unit filename="/home/mica/Bureau/FAC/Mif39/C++/Graal/GraalWavefrontTest/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\Graal\GraalWavefrontTest\" />
+      </Unit>
+      <Unit filename="/home/mica/Bureau/FAC/Mif39/C++/Graal/GraalWavefrontTest/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\Graal\GraalWavefrontTest\" />
+      </Unit>
+      <Unit filename="/home/mica/Bureau/FAC/Mif39/C++/Graal/GraalWavefrontTest/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\Graal\GraalWavefrontTest\" />
+      </Unit>
+      <Unit filename="/home/mica/Bureau/FAC/Mif39/C++/Graal/GraalAssetServer/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\Graal\GraalAssetServer\" />
+      </Unit>
+      <Unit filename="/home/mica/Bureau/FAC/Mif39/C++/Graal/GraalAssetServer/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\Graal\GraalAssetServer\" />
+      </Unit>
+      <Unit filename="/home/mica/Bureau/FAC/Mif39/C++/Graal/GraalAssetServer/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\Graal\GraalAssetServer\" />
+      </Unit>
+      <Unit filename="/home/mica/Bureau/FAC/Mif39/C++/Graal/GraalAssetClient/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\Graal\GraalAssetClient\" />
+      </Unit>
+      <Unit filename="/home/mica/Bureau/FAC/Mif39/C++/Graal/GraalAssetClient/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\Graal\GraalAssetClient\" />
+      </Unit>
+      <Unit filename="/home/mica/Bureau/FAC/Mif39/C++/Graal/GraalAssetClient/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\Graal\GraalAssetClient\" />
+      </Unit>
+      <Unit filename="/home/mica/Bureau/FAC/Mif39/C++/../../../../../../opt/Qt/5.4/gcc_64/lib/cmake/Qt5Core/Qt5CoreConfigVersion.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\opt\Qt\5.4\gcc_64\lib\cmake\Qt5Core\" />
+      </Unit>
+      <Unit filename="/home/mica/Bureau/FAC/Mif39/C++/../../../../../../opt/Qt/5.4/gcc_64/lib/cmake/Qt5Core/Qt5CoreConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\opt\Qt\5.4\gcc_64\lib\cmake\Qt5Core\" />
+      </Unit>
+      <Unit filename="/home/mica/Bureau/FAC/Mif39/C++/../../../../../../opt/Qt/5.4/gcc_64/lib/cmake/Qt5Core/Qt5CoreConfigExtras.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\opt\Qt\5.4\gcc_64\lib\cmake\Qt5Core\" />
+      </Unit>
+      <Unit filename="/home/mica/Bureau/FAC/Mif39/C++/../../../../../../opt/Qt/5.4/gcc_64/lib/cmake/Qt5Core/Qt5CoreConfigExtrasMkspecDir.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\opt\Qt\5.4\gcc_64\lib\cmake\Qt5Core\" />
+      </Unit>
+      <Unit filename="/home/mica/Bureau/FAC/Mif39/C++/../../../../../../opt/Qt/5.4/gcc_64/lib/cmake/Qt5Core/Qt5CoreMacros.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\opt\Qt\5.4\gcc_64\lib\cmake\Qt5Core\" />
+      </Unit>
+      <Unit filename="/home/mica/Bureau/FAC/Mif39/C++/../../../../../../opt/Qt/5.4/gcc_64/lib/cmake/Qt5Gui/Qt5GuiConfigVersion.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\opt\Qt\5.4\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/mica/Bureau/FAC/Mif39/C++/../../../../../../opt/Qt/5.4/gcc_64/lib/cmake/Qt5Gui/Qt5GuiConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\opt\Qt\5.4\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/mica/Bureau/FAC/Mif39/C++/../../../../../../opt/Qt/5.4/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QTgaPlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\opt\Qt\5.4\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/mica/Bureau/FAC/Mif39/C++/../../../../../../opt/Qt/5.4/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QEvdevKeyboardPlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\opt\Qt\5.4\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/mica/Bureau/FAC/Mif39/C++/../../../../../../opt/Qt/5.4/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QJp2Plugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\opt\Qt\5.4\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/mica/Bureau/FAC/Mif39/C++/../../../../../../opt/Qt/5.4/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QComposePlatformInputContextPlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\opt\Qt\5.4\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/mica/Bureau/FAC/Mif39/C++/../../../../../../opt/Qt/5.4/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QGifPlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\opt\Qt\5.4\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/mica/Bureau/FAC/Mif39/C++/../../../../../../opt/Qt/5.4/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QWebpPlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\opt\Qt\5.4\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/mica/Bureau/FAC/Mif39/C++/../../../../../../opt/Qt/5.4/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QJpegPlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\opt\Qt\5.4\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/mica/Bureau/FAC/Mif39/C++/../../../../../../opt/Qt/5.4/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QICNSPlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\opt\Qt\5.4\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/mica/Bureau/FAC/Mif39/C++/../../../../../../opt/Qt/5.4/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QWbmpPlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\opt\Qt\5.4\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/mica/Bureau/FAC/Mif39/C++/../../../../../../opt/Qt/5.4/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QEvdevTouchScreenPlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\opt\Qt\5.4\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/mica/Bureau/FAC/Mif39/C++/../../../../../../opt/Qt/5.4/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QMngPlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\opt\Qt\5.4\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/mica/Bureau/FAC/Mif39/C++/../../../../../../opt/Qt/5.4/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QLinuxFbIntegrationPlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\opt\Qt\5.4\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/mica/Bureau/FAC/Mif39/C++/../../../../../../opt/Qt/5.4/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QXcbIntegrationPlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\opt\Qt\5.4\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/mica/Bureau/FAC/Mif39/C++/../../../../../../opt/Qt/5.4/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QMinimalIntegrationPlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\opt\Qt\5.4\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/mica/Bureau/FAC/Mif39/C++/../../../../../../opt/Qt/5.4/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QMinimalEglIntegrationPlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\opt\Qt\5.4\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/mica/Bureau/FAC/Mif39/C++/../../../../../../opt/Qt/5.4/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QEglFSIntegrationPlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\opt\Qt\5.4\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/mica/Bureau/FAC/Mif39/C++/../../../../../../opt/Qt/5.4/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QOffscreenIntegrationPlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\opt\Qt\5.4\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/mica/Bureau/FAC/Mif39/C++/../../../../../../opt/Qt/5.4/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QIbusPlatformInputContextPlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\opt\Qt\5.4\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/mica/Bureau/FAC/Mif39/C++/../../../../../../opt/Qt/5.4/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QDDSPlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\opt\Qt\5.4\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/mica/Bureau/FAC/Mif39/C++/../../../../../../opt/Qt/5.4/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QICOPlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\opt\Qt\5.4\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/mica/Bureau/FAC/Mif39/C++/../../../../../../opt/Qt/5.4/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QTiffPlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\opt\Qt\5.4\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/mica/Bureau/FAC/Mif39/C++/../../../../../../opt/Qt/5.4/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QEvdevTabletPlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\opt\Qt\5.4\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/mica/Bureau/FAC/Mif39/C++/../../../../../../opt/Qt/5.4/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QEvdevMousePlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\opt\Qt\5.4\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/mica/Bureau/FAC/Mif39/C++/../../../../../../opt/Qt/5.4/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QGtk2ThemePlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\opt\Qt\5.4\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/mica/Bureau/FAC/Mif39/C++/../../../../../../opt/Qt/5.4/gcc_64/lib/cmake/Qt5Gui/Qt5GuiConfigExtras.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\opt\Qt\5.4\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/mica/Bureau/FAC/Mif39/C++/Utility/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\Utility\" />
+      </Unit>
+      <Unit filename="/home/mica/Bureau/FAC/Mif39/C++/Utility/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\Utility\" />
+      </Unit>
+      <Unit filename="/home/mica/Bureau/FAC/Mif39/C++/Networking/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\Networking\" />
+      </Unit>
+      <Unit filename="/home/mica/Bureau/FAC/Mif39/C++/Networking/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\Networking\" />
+      </Unit>
+      <Unit filename="/home/mica/Bureau/FAC/Mif39/C++/TcpNetworking/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\TcpNetworking\" />
+      </Unit>
+      <Unit filename="/home/mica/Bureau/FAC/Mif39/C++/TcpNetworking/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\TcpNetworking\" />
+      </Unit>
+      <Unit filename="/home/mica/Bureau/FAC/Mif39/C++/Wavefront/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\Wavefront\" />
+      </Unit>
+      <Unit filename="/home/mica/Bureau/FAC/Mif39/C++/Wavefront/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\Wavefront\" />
+      </Unit>
+      <Unit filename="/home/mica/Bureau/FAC/Mif39/C++/QImageLoader/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\QImageLoader\" />
+      </Unit>
+      <Unit filename="/home/mica/Bureau/FAC/Mif39/C++/QImageLoader/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\QImageLoader\" />
+      </Unit>
+      <Unit filename="/home/mica/Bureau/FAC/Mif39/C++/Samples/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\Samples\" />
+      </Unit>
+      <Unit filename="/home/mica/Bureau/FAC/Mif39/C++/Samples/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\Samples\" />
+      </Unit>
+      <Unit filename="/home/mica/Bureau/FAC/Mif39/C++/Samples/WavefrontTest/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\Samples\WavefrontTest\" />
+      </Unit>
+      <Unit filename="/home/mica/Bureau/FAC/Mif39/C++/Samples/WavefrontTest/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\Samples\WavefrontTest\" />
+      </Unit>
+      <Unit filename="/home/mica/Bureau/FAC/Mif39/C++/Samples/WavefrontTest/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\Samples\WavefrontTest\" />
+      </Unit>
+      <Unit filename="/home/mica/Bureau/FAC/Mif39/C++/Samples/SimpleAssetServer/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\Samples\SimpleAssetServer\" />
+      </Unit>
+      <Unit filename="/home/mica/Bureau/FAC/Mif39/C++/Samples/SimpleAssetServer/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\Samples\SimpleAssetServer\" />
+      </Unit>
+      <Unit filename="/home/mica/Bureau/FAC/Mif39/C++/Samples/SimpleAssetServer/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\Samples\SimpleAssetServer\" />
+      </Unit>
+      <Unit filename="/home/mica/Bureau/FAC/Mif39/C++/Samples/SimpleAssetClient/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\Samples\SimpleAssetClient\" />
+      </Unit>
+      <Unit filename="/home/mica/Bureau/FAC/Mif39/C++/Samples/SimpleAssetClient/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\Samples\SimpleAssetClient\" />
+      </Unit>
+      <Unit filename="/home/mica/Bureau/FAC/Mif39/C++/Samples/SimpleAssetClient/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\Samples\SimpleAssetClient\" />
+      </Unit>
+   </Project>
+</CodeBlocks_project_file>

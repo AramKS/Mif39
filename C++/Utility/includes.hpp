@@ -11,6 +11,10 @@
 #include <thread>
 #include <pthread.h>
 
+#include <iostream>
+#include <fstream>
+#include <dirent.h>
+
 #include <QLocale>
 
 #include <QObject>
