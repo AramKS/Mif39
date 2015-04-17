@@ -108,6 +108,38 @@ int main ( int argc, char** argv ) {
             client.send(request);
             break;
         }
+
+        case 2 :
+        {
+            ByteBuffer request(&ch, 1);
+            client.send(request);
+            while(message.getLength()==0)
+                client.receive(message); std::cout << "Recv : " << message.getLength() << " bytes" << std::endl;
+            unsigned long long d = 0;
+
+            SharedResourcePtr ptr = ResourceHolder::FromBuffer(message,d);
+
+            std::cout<<ptr->getUUID().toString().toStdString()<<std::endl;
+
+            ptr->Usage();
+
+            unsigned int w = ptr->get <unsigned int> ("Width");
+            unsigned int h = ptr->get <unsigned int> ("Height");
+            unsigned int dep = ptr->get <unsigned int> ("Depth");
+            unsigned int n = ptr->get <unsigned int> ("nChannels");
+
+            std::cout<<"Width : "<<w<<std::endl;
+            std::cout<<"Height : "<<h<<std::endl;
+            std::cout<<"Depth : "<<dep<<std::endl;
+            std::cout<<"nChannels : "<<n<<std::endl;
+
+            /*unsigned char * data = ptr->get <unsigned char*> ("Data");
+            for(int i=0;i< w*h*dep ; i++)
+                std::cout<<data[i];
+            std::cout<<std::endl;*/
+
+
+        }
     }
     client.close ();
 

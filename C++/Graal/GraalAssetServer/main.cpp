@@ -40,6 +40,15 @@ void connection_Client (QUuid client, SimpleTcpStartPoint *server){
             Vector3d coord = loadCoords(request);
             break;
         }
+        case 2:
+        {
+            std::cout<<std::endl<<"IMAGE SENT "<<std::endl;
+            while(request.getLength() == 0)
+                server->receive(client,request);
+            ByteBuffer mess = imageRequest(request);
+            server->send(client, mess);
+            break;
+        }
     }
 }
 

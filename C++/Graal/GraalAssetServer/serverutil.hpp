@@ -7,7 +7,8 @@ namespace TypeRequest
      typedef enum
      {
           simple, // 0
-          coords  // 1
+          coords , // 1
+          image //2
      }TypeRequest;
 }
 
@@ -36,6 +37,16 @@ ByteBuffer simpleRequest(const ByteBuffer &request){
     ByteBuffer mess = ResourceHolder::ToBuffer(p);
 
     return mess;
+}
+
+ByteBuffer imageRequest(const ByteBuffer &request){
+    QString path = "./test.jpg";
+    FileDescriptor file (path);
+    SharedResourceList ress = ResourceHolder::Load(file);
+    SharedResourcePtr ptr = ress [0];
+    ByteBuffer message = ResourceHolder::ToBuffer(ptr);
+
+    return message;
 }
 
 Vector3d loadCoords(const ByteBuffer &request){
