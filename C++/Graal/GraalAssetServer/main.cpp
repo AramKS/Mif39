@@ -17,19 +17,13 @@ void connection_Client (QUuid client, SimpleTcpStartPoint *server){
 
     ByteBuffer request;
     server->receive(client,request);
-    std::cout<<std::endl<<request.getData()<<std::endl<<std::endl;
+    std::cout<<"Request : "<<request.getData()<<std::endl;
     int requestNb = ((request.getData()[0]) - '0');
-    std::cout<<std::endl<<requestNb<<std::endl<<std::endl;
 
     QList <QUuid> l = ResourceHolder::AllKeys();
     SharedResourcePtr p = ResourceHolder::GetByUUID(l.at(requestNb));
     ByteBuffer mess = ResourceHolder::ToBuffer(p);
     server->send(client, mess);
-    //std::this_thread::yield();
-    //while (true){}
-    //server->send(client,messageCube);
-    //server->receive();
-    //std::cout << "Sent : " << messageCube.getLength() << " bytes" << std::endl;
 }
 
 void serverListen (SimpleTcpStartPoint *server){
@@ -41,7 +35,7 @@ void serverListen (SimpleTcpStartPoint *server){
         while (client == fake)
             client = server->listen();
         if (client != fake){
-            th_client[nb_Client_connect]  = std::thread (connection_Client, client, server);
+            th_client[nb_Client_connect] = std::thread (connection_Client, client, server);
             nb_Client_connect++;
             std::cout<<"Client "<<nb_Client_connect<<" est connecté"<<endl;
         }
