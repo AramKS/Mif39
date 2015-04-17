@@ -15,15 +15,32 @@ int nb_Client_connect;
 
 void connection_Client (QUuid client, SimpleTcpStartPoint *server){
 
+    ByteBuffer typerequest;
     ByteBuffer request;
-    server->receive(client,request);
-    std::cout<<"Request : "<<request.getData()<<std::endl;
-    int requestNb = ((request.getData()[0]) - '0');
+    while(typerequest.getLength() == 0)
+        server->receive(client,typerequest);
+    int type = ((typerequest.getData()[0]) - '0');
 
-    QList <QUuid> l = ResourceHolder::AllKeys();
-    SharedResourcePtr p = ResourceHolder::GetByUUID(l.at(requestNb));
-    ByteBuffer mess = ResourceHolder::ToBuffer(p);
-    server->send(client, mess);
+    switch (type)
+    {
+        case 0:
+        {
+            std::cout<<std::endl<<"SIMPLE REQUEST (MESH) "<<std::endl;
+            while(request.getLength() == 0)
+                server->receive(client,request);
+            ByteBuffer mess = simpleRequest(request);
+            server->send(client, mess);
+            break;
+        }
+        case 1:
+        {
+            std::cout<<std::endl<<"COORDS SENT "<<std::endl;
+            while(request.getLength() == 0)
+                server->receive(client,request);
+            Vector3d coord = loadCoords(request);
+            break;
+        }
+    }
 }
 
 void serverListen (SimpleTcpStartPoint *server){
