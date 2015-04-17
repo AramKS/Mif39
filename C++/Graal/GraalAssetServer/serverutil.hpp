@@ -6,9 +6,9 @@ namespace TypeRequest
 {
      typedef enum
      {
-          simple, // 0
-          coords , // 1
-          image //2
+          simple,   // 0
+          coords ,  // 1
+          image     // 2
      }TypeRequest;
 }
 
