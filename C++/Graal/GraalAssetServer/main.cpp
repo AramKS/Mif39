@@ -12,7 +12,7 @@ extern void __attachQImage(void);
 extern void __attachWavefront(void);
 
 int nb_Client_connect;
-const int nb_Client_Max = 100000000;
+const int nb_Client_Max = 10;
 int th_active[nb_Client_Max];
 QMap<QUuid, int> mapQUuid;
 
@@ -52,7 +52,7 @@ int main ( int argc, char** argv ) {
 /** thread d'ecoute */
 void serverListen (SimpleTcpStartPoint *server){
     QUuid fake;
-    std::thread th_client[nb_Client_Max];
+    //std::thread th_client[nb_Client_Max];
 
     while ( true ) {
         QUuid client;
@@ -70,7 +70,10 @@ void serverListen (SimpleTcpStartPoint *server){
             if (insertQUuid){
                 nb_Client_connect++;
                 mapQUuid.insert(client, nb_Client_connect);
-               th_client[nb_Client_connect] = std::thread (Thread_Client, client, server);
+               //th_client[nb_Client_connect] = std::thread (Thread_Client, client, server);
+                //std::thread th_client;
+                //th_client = std::thread (Thread_Client, client, server);
+                new std::thread (Thread_Client, client, server);
             }
             std::cout<<"Client "<<mapQUuid.value(client)<<" est connecté"<<std::endl;
         }
