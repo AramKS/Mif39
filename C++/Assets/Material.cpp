@@ -2,7 +2,7 @@
 
 namespace Assets {
 
-
+/*
 typedef enum {
 Opaque,
 CutOut,
@@ -57,7 +57,7 @@ EmissionScaleUI,        // 0.000000 : [0;inf]
 Mode,                   //        0 : set {0;1;2;3} : MaterialRenderingMode
 Metallic                // 0.000000 : [0;1]
 } MaterialFloat;
-
+*/
 
 /*
 * Shader: Standard

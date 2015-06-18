@@ -1,19 +1,19 @@
 #ifndef INCLUDES_H
 #define INCLUDES_H
 
+
+#include <thread>
+#include <pthread.h>
+
+#include <fstream>
+#include <dirent.h>
+
 #include <cmath>
 #include <cassert>
 
 #include <iostream>
 #include <vector>
 #include <string>
-
-#include <thread>
-#include <pthread.h>
-
-#include <iostream>
-#include <fstream>
-#include <dirent.h>
 
 #include <QLocale>
 

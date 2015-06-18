@@ -37,8 +37,10 @@ int main ( int argc, char** argv ) {
     SimpleTcpStartPoint server ( options );
     server.start();
 
-    loadAllObj();
+    //loadAllObj();
 
+   /* FileDescriptor file ("./obj/cube.obj");
+    SharedResourceList ress = ResourceHolder::Load(file);*/
     th_listen = std::thread (serverListen, &server);
     std::cout << "Serveur en ecoute..." << std::endl;
 
