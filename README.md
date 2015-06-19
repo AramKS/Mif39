@@ -1,6 +1,6 @@
 # Mif39
 
-A faire : 
+###A faire coté serveur :
 modifier le CMakeLists.txt principal pour spécifier le chemin d'accès vers QT
 
 Copier les descriptions des mime type (les 2 fichiers xml dans le dossier Resources)
@@ -8,6 +8,12 @@ Copier les descriptions des mime type (les 2 fichiers xml dans le dossier Resour
 * macos : dans le dossier ~/Library/Application Support/mime/packages
 * windows : dans le dossier C:/Users/<USER>/AppData/Local/mime/packages
 
+Une fois les mime type copiés :
+
+éxecuter la commande : update-mime-database ~/.local/share/mime
+
+Pour lancer le serveur : simplement lancer l'exécutable GraalAssetServer
+Il attendra un message comme décrit ci-dessous.
 
 ###Format des messages client :
 

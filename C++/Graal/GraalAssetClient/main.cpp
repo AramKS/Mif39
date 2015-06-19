@@ -34,7 +34,7 @@ int main ( int argc, char** argv ) {
 
 
     int type = argv[1][0] - '0';
-    int randomRequest = rand() % 6 + 1;
+    int randomRequest = rand() % 5 + 1;
     randomRequest -=1;
     unsigned char ch = randomRequest + '0';
     unsigned char c = type +'0';

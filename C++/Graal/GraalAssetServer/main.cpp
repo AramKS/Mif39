@@ -37,10 +37,13 @@ int main ( int argc, char** argv ) {
     SimpleTcpStartPoint server ( options );
     server.start();
 
-    //loadAllObj();
+    loadAllObj();
 
-   /* FileDescriptor file ("./obj/cube.obj");
+    /*FileDescriptor file ("./Resources/UnformattedWorlds/Medieval/Medieval_City.obj");
     SharedResourceList ress = ResourceHolder::Load(file);*/
+     QList <QUuid> l = ResourceHolder::AllKeys();
+     for(auto it = l.begin(); it != l.end() ;it++)
+         std::cout<<it->toString().toStdString()<<std::endl;
     th_listen = std::thread (serverListen, &server);
     std::cout << "Serveur en ecoute..." << std::endl;
 
